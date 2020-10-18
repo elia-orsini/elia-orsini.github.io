@@ -1,0 +1,118 @@
+@font-face {
+	font-family: "Coolvetica";
+	src: url("assets/fonts/coolvetica/coolvetica.ttf");
+}
+@font-face {
+	font-family: "LGC_Bold";
+	src: url("assets/fonts/lous/LouisGeorgeCafeBold.ttf");
+}
+@font-face {
+	font-family: "LGC";
+	src: url("assets/fonts/lous/normal.ttf");
+}
+@font-face {
+	font-family: "Chomsky";
+	src: url("assets/fonts/lous/Chomsky.otf");
+}
+* { 
+ 	box-sizing: border-box; 
+ 	margin: 0; 
+ 	padding: 0; 
+ 	overflow-x: hidden;
+ 	text-shadow: 0 1px 0 rgba(255, 255, 255, 1);
+ 	-webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently
+                        supported by Chrome, Edge, Opera and Firefox */
+} 
+ }
+ html, body { 
+ 	background-color: #eeeeee; 
+ 	height: 100%; 
+ 	width: 100%;
+ 	margin: 0;
+ 	padding: 5px; 
+ 	position: relative; 
+ 	color: #343434; 
+ 	font-size: 12px; 
+ 	font-weight: 400; 
+ 	font-family: sans-serif;
+ 	line-height: 26px; 
+ 	text-align: center;
+ }
+ .page1{
+ 	height:100%;
+ }
+ .site-title {
+ 	position: relative;
+ 	font-size: 80px;
+ 	font-family: "Coolvetica";
+ }
+ .nameSlideshow{
+ 	position: absolute;
+ 	left: 300px;
+ 	top: 0px;
+ }
+ .tagline{
+ 	position: relative;
+ 	font-family: "Helvetica";
+ 	font-size: 9px;
+ }
+.graphicdesign{
+	position: relative;
+}
+.nav a, .nav{
+ 	font-size: 13px;
+ 	font-family: sans-serif;
+ 	letter-spacing: 2px; 
+ }
+.nav a:hover{
+ 	font-size: 13px;
+ 	font-family: sans-serif;
+ 	text-decoration: underline;
+ 	font-weight: bold;
+ 	text-decoration-color: red;
+ 	color: black;
+ }
+ header, footer { 
+ 	position: absolute;
+ 	top: 50%; 
+ 	left: 50%; 
+ 	transform: translate(-50%, -50%);
+ 	text-align: center;
+ }
+ footer { 
+ 	top: auto; 
+ 	bottom: 10px; 
+ 	transform: translate(-50%, 0); 
+ }
+ .socials{
+ 	position: relative;
+ 	left: 85%;
+ }
+ .socials img{
+ 	height: 4%;
+ 	width: 4%;
+ 	margin-left: 5px;
+ }
+.page2{
+	position: relative;
+ 	height:100%;
+ }
+.section-title{
+	position: relative;
+	font-size: 60px;
+	text-align: center;
+	left: 25%;
+	top: 10%;
+}
+ a { 
+ 	color: #343434; 
+ 	text-decoration: underline; 
+ }
+ a:hover, a:focus { 
+ 	text-decoration: none; 
+ }

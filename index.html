@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="<?php bloginfo( 'charset' ); ?>" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2" />
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="init()">
+
+<div class="page1">
+	<img id="myImageId" src="assets/images/canvas.png" style="position:absolute;opacity:0;left:0;width:100%;height:100%;">
+	<canvas id="can" width="1000" height="1000" style="position:absolute;top:0%;left:0%;margin:0;border:2px solid;"></canvas>
+
+	<header>
+		<div class="site-title" style="margin: 0 0 50px;">
+			Hello, I'm 
+			<span style="opacity:0">Elia.</span>
+			<span class="nameSlideshow">Elia.</span>
+			<span class="nameSlideshow" style="font-family:'LGC'; top:2px";>Elia.</span>
+			<span class="nameSlideshow" style="font-family:'Century Gothic';top:3px";>Elia.</span>
+		</div>
+		<p class="tagline" style="margin: 30px 0 0;">
+			PLEASE CHECK OUT MY WORKS.
+		</p>
+		<p class="nav" style="margin: 20px 0 30px;"> 
+			<a href="#">PHOTOGRAPHY</a> |
+			<span class="graphicdesign">
+				<img src="assets/images/deleted1.png" style="position:absolute;width:100%;top:-7px;left:-4px"> 
+				<a href="#">GRAPHIC DESIGN</a>
+				<img src="assets/images/not-open-yet.png" style="position:absolute;width:70%;top:20px;left:20px"> 
+			</span>
+			|
+			<span class="graphicdesign">
+				<img src="assets/images/deleted1.png" style="position:absolute;width:100%;top:-5px;left:-4px"> 
+				<a href="#">PROGRAMMING</a>
+				<img src="assets/images/closed-as-well.png" style="position:absolute;width:75%;top:20px;left:15px">
+			</span>
+		</p>
+	</header>
+	<footer>
+			ELIA ORSINI / OCTOBER 2020
+			<div class="socials">
+				<a href="https://www.linkedin.com/in/elia-orsini/"><img src="assets/icons/linkedin.png"></a>
+				<a href="https://github.com/elia-orsini"><img src="assets/icons/github.png"></a>
+				<a href="mailto: elia.orsini@hotmail.com"><img src="assets/icons/email.png"></a>
+			</div>
+		</footer>
+
+	<script type="text/javascript">
+		var slideIndex = 0;
+		showSlides();
+
+		function showSlides(){
+			var i;
+			var slides = document.getElementsByClassName("nameSlideshow");
+			for (i = 0; i < slides.length; i++){
+				slides[i].style.display = "none";
+			}
+			slideIndex++;
+			if (slideIndex > slides.length) {slideIndex = 1};
+			slides[slideIndex-1].style.display = "block";
+			setTimeout(showSlides, 200);
+		}
+
+		/// get computed style for image
+		var img = document.getElementById('myImageId');
+		var cs = getComputedStyle(img);
+
+		/// these will return dimensions in *pixel* regardless of what
+		/// you originally specified for image:
+		var width = parseInt(cs.getPropertyValue('width'), 10);
+		var height = parseInt(cs.getPropertyValue('height'), 10);
+
+		function getRandomInt(min, max) {
+		  return Math.floor(Math.random() * (max - min + 1)) + min;
+		}
+		var el = document.getElementById('can');
+
+		el.width = width;
+		el.height = height;
+
+		var ctx = el.getContext('2d');
+
+		ctx.lineJoin = ctx.lineCap = 'round';
+
+		var isDrawing, points = [ ];
+
+		el.onmousedown = function(e) {
+		  isDrawing = true;
+		  points.push({ 
+		    x: e.clientX, 
+		    y: e.clientY,
+		    width: getRandomInt(3, 4)
+		  });
+		};
+
+		el.onmousemove = function(e) {
+		  if (!isDrawing) return;
+
+		  ctx.clearRect(0, 0, ctx.canvas.width, ctx.canvas.height);
+		  
+		  points.push({ 
+		    x: e.clientX, 
+		    y: e.clientY,
+		    width: getRandomInt(3, 4)
+		  });
+
+		  for (var i = 1; i < points.length; i++) {
+		    ctx.beginPath();
+		    ctx.moveTo(points[i-1].x, points[i-1].y);
+		    ctx.lineWidth = points[i].width;
+		    ctx.lineTo(points[i].x, points[i].y);
+		    ctx.stroke();
+		  }
+		};
+
+		el.onmouseup = function() {
+		  isDrawing = false;
+		  points.length = 0;
+		};
+
+	</script>
+
+</div>
+
+<!--
+<div class="page2">
+	<div class="section-title">
+		PHOTOGRAPHY
+	</div>
+
+	<footer>
+		ELIA ORSINI / OCTOBER 2020
+	</footer>
+</div>
+!-->
+
+</body>
+</html>
