@@ -65,6 +65,7 @@
 	position: absolute;
 	height: 40px;
 	top: 130px;
+	overflow-y: hidden;
 }
 .nav a, .nav{
  	font-size: 13px;
@@ -89,6 +90,7 @@
  	left: 50%; 
  	transform: translate(-50%, -50%);
  	text-align: center;
+ 	overflow-y: hidden;
  }
 footer { 
 	width: 100%;
