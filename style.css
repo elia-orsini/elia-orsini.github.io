@@ -171,6 +171,9 @@ header{
 .nav a, .nav{
 	font-size: 10px;
 }
+.nav a:hover{
+ 	font-size: 10px;
+}
 .tagline{
 	font-size: 7px;
 }
