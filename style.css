@@ -153,17 +153,23 @@ footer{
 }
  @media screen and (max-width: 500px) {
 header{
-	width: 80%;
+	width:100%;
 }
 .site-title{
 	font-size: 65px;
 }
 .nameSlideshow{
-	top: -70px;
-	left: 115px;
+	top: -76px;
+	left: 130px;
+}
+.graphicdesign{
+	position: relative;
+}
+.nav{
+	width: 100%;
 }
 .nav a, .nav{
-	font-size: 9px;
+	font-size: 10px;
 }
 .tagline{
 	font-size: 7px;
