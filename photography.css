@@ -62,11 +62,8 @@ a{
  	text-decoration: none;
  }
 a:hover{
- 	font-family: sans-serif;
  	text-decoration: underline;
- 	font-weight: bold;
  	text-decoration-color: red;
- 	color: black;
  }
 .photos-section{
 	text-align: center;
