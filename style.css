@@ -85,12 +85,14 @@
 }
  header{
  	position: absolute;
+ 	background-color: white;
  	height: 200px;
  	top: 40%; 
  	left: 50%; 
  	transform: translate(-50%, -50%);
  	text-align: center;
  	overflow-y: hidden;
+ 	z-index: 2;
  }
 footer { 
 	width: 100%;
@@ -103,6 +105,7 @@ footer {
  	transform: translate(-50%, 0); 
  	overflow-y: hidden;
  	font-family: LGC;
+ 	z-index: 2;
  }
  .tag{
  	font-size: 14px;
