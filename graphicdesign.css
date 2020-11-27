@@ -1,0 +1,169 @@
+@font-face {
+	font-family: "Coolvetica";
+	src: url("assets/fonts/coolvetica/coolvetica.ttf");
+}
+@font-face {
+	font-family: "LGC_Bold";
+	src: url("assets/fonts/lous/LouisGeorgeCafeBold.ttf");
+}
+@font-face {
+	font-family: "LGC";
+	src: url("assets/fonts/lous/normal.ttf");
+}
+@font-face {
+	font-family: "Chomsky";
+	src: url("assets/fonts/lous/Chomsky.otf");
+}
+* { 
+  background-color: black;
+  color: white;
+ 	box-sizing: border-box; 
+ 	margin: 0; 
+ 	padding: 0; 
+ 	text-shadow: 0 1px 0 rgba(255, 255, 255, 1);
+ 	-webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently
+                        supported by Chrome, Edge, Opera and Firefox */
+} 
+ }
+ html, body {
+ 	height: auto;
+ 	width: 100%;
+ 	margin: 0;
+ 	padding: 5px; 
+ 	color: white; 
+ 	font-size: 12px; 
+ 	font-weight: 400; 
+ 	font-family: sans-serif;
+ 	line-height: 26px; 
+ 	text-align: center;
+ }
+a{
+ 	font-size: 16px;
+ 	font-family: sans-serif;
+ 	letter-spacing: 2px;
+ 	color: black;
+ 	text-decoration: none;
+ }
+a:hover{
+ 	text-decoration: underline;
+ 	text-decoration-color: red;
+ }
+.section{
+	text-align: center;
+	position: relative;
+	width: 100%;
+	height: auto;
+	margin-left: 0%;
+	margin-top: 280px;
+}
+.section img{
+  width: 20%;
+}
+.row{
+	margin-left: 0%;
+	width: 100%;
+	align-content: center;
+	display: flex;
+  	flex-wrap: wrap;
+  	padding: 0 6px;
+}
+.column {
+	flex: 33%;
+	max-width: 400px;
+	padding: 0 4px;
+}
+.column img {
+	margin-top: 8px;
+	vertical-align: middle;
+	width: 100%;
+}
+footer { 
+	width: 100%;
+	height: 20px;
+	position: relative;
+ 	left: 50%;
+ 	text-align: center;
+ 	margin-top: 100px;
+ 	top: 94%; 
+ 	bottom: 10px; 
+ 	transform: translate(-50%, 0); 
+ 	overflow-y: hidden;
+ 	overflow-x: hidden;
+ 	font-family: LGC;
+ }
+.socials{
+ 	position: relative;
+ 	top: -18px;
+ 	right: -40%;
+ }
+.socials img{
+ 	height: 20px;
+ 	width: 20px;
+ 	margin-left: 5px;
+}
+@media screen and (max-width: 800px) {
+  .section{
+  	margin-top: 260px;
+  }
+  .section img{
+  width: 40%;
+}
+  .photo-section h1{
+  	font-size: 20px;
+  }
+  header{
+  	left: -5px;
+  }
+  header h1{
+  	font-size: 20px;
+  }
+  a{
+  	font-size:10px;
+  }
+  a:hover{
+  	font-size: 10px;
+  }
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .section{
+    margin-top: 230px;
+  }
+  .section img{
+  width: 40%;
+}
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+  header{
+  	font-size: 14px;
+  }
+  footer{
+  	transform: translate(-50%, 0); 
+  	font-size: 10px;
+  }
+  .socials{
+  	display: none;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
