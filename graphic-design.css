@@ -64,6 +64,13 @@ a:hover{
  	text-decoration: underline;
  	text-decoration-color: red;
  }
+ .desc{
+  margin-top: 140px;
+  color: white;
+  position: relative;
+  margin-left: 25%;
+  font-size: 25px;
+ }
 .photos-section{
 	text-align: center;
 	position: relative;
