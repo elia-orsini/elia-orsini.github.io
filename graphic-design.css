@@ -58,7 +58,7 @@ header h1{
 	font-size: 25px;
 }
 a{
- 	font-size: 16px;
+ 	font-size: 20px;
  	font-family: sans-serif;
  	letter-spacing: 2px;
  	color: white;
@@ -141,10 +141,7 @@ footer {
   	font-size: 20px;
   }
   a{
-  	font-size:10px;
-  }
-  a:hover{
-  	font-size: 10px;
+  	font-size:19px;
   }
   .column {
     flex: 100%;
