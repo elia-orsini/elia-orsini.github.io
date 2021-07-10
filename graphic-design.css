@@ -18,6 +18,10 @@
 	font-family: "Chomsky";
 	src: url("assets/fonts/lous/Chomsky.otf");
 }
+@font-face {
+  font-family: "DroidSansMono";
+  src: url("assets/fonts/DroidSansMono.ttf");
+}
 * { 
   background-color: black;
  	box-sizing: border-box; 
@@ -115,11 +119,12 @@ footer {
  	transform: translate(-50%, 0); 
  	overflow-y: hidden;
  	overflow-x: hidden;
- 	font-family: LGC;
+ 	font-family: DroidSansMono;
+  font-size: 13px;
  }
 .socials{
  	position: relative;
- 	top: -18px;
+ 	top: -15px;
  	right: -40%;
  }
 .socials img{

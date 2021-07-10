@@ -14,6 +14,10 @@
 	font-family: "Chomsky";
 	src: url("assets/fonts/lous/Chomsky.otf");
 }
+@font-face {
+	font-family: "DroidSansMono";
+	src: url("assets/fonts/DroidSansMono.ttf");
+}
 * { 
  	box-sizing: border-box; 
  	margin: 0; 
@@ -58,7 +62,7 @@
  	top: 90px;
  	width: 100%;
  	text-align: center;
- 	font-family: "Helvetica";
+ 	font-family: "DroidSansMono";
  	font-size: 9px;
  }
 .nav{
@@ -105,8 +109,9 @@ footer {
  	bottom: 10px; 
  	transform: translate(-50%, 0); 
  	overflow-y: hidden;
- 	font-family: LGC;
+ 	font-family: DroidSansMono;
  	z-index: 2;
+ 	font-size: 13px;
  }
  .tag{
  	font-size: 14px;
@@ -115,7 +120,7 @@ footer {
  }
  .socials{
  	position: relative;
- 	top: -18px;
+ 	top: -15px;
  	right: -40%;
  }
  .socials img{
