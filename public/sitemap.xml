@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://elia-orsini.com/</loc>
+    <lastmod>2021-03-18T22:25:12+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://elia-orsini.com/posts/my-first-post/</loc>
+    <lastmod>2021-03-18T22:25:12+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://elia-orsini.com/posts/</loc>
+    <lastmod>2021-03-18T22:25:12+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://elia-orsini.com/tags/</loc>
+    <lastmod>2021-03-18T22:25:12+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://elia-orsini.com/tags/untagged/</loc>
+    <lastmod>2021-03-18T22:25:12+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://elia-orsini.com/archives/</loc>
+  </url>
+  
+  <url>
+    <loc>https://elia-orsini.com/categories/</loc>
+  </url>
+  
+</urlset>
