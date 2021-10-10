@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on blogchain</title>
-    <link>https://elia-orsini.com/public/posts/</link>
+    <link>https://elia-orsini.com/posts/</link>
     <description>Recent content in Posts on blogchain</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 09 Oct 2021 22:25:12 +0100</lastBuildDate><atom:link href="https://elia-orsini.com/public/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 09 Oct 2021 22:25:12 +0100</lastBuildDate><atom:link href="https://elia-orsini.com/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Glass Bead Game</title>
-      <link>https://elia-orsini.com/public/posts/2/</link>
+      <link>https://elia-orsini.com/posts/2/</link>
       <pubDate>Sat, 09 Oct 2021 22:25:12 +0100</pubDate>
       
-      <guid>https://elia-orsini.com/public/posts/2/</guid>
+      <guid>https://elia-orsini.com/posts/2/</guid>
       <description>The Glass Bead Game by Herman Hesse is a biography written by a historian in the year 2400 about an elite of people which decide to live alienated from society to study and preserve all the culture accumulated in the centuries.
 Even though it is a fictional book, it feels more real than anything. Everything seems just like a metaphor where the author’s aim is talking to you about his own path from great expectations and convictions about the meaning of the world to an existential crisis where every certainty about your life vanishes.</description>
     </item>
     
     <item>
       <title>A new economic system</title>
-      <link>https://elia-orsini.com/public/posts/1/</link>
+      <link>https://elia-orsini.com/posts/1/</link>
       <pubDate>Thu, 18 Mar 2021 22:25:12 +0100</pubDate>
       
-      <guid>https://elia-orsini.com/public/posts/1/</guid>
+      <guid>https://elia-orsini.com/posts/1/</guid>
       <description>Booms and busts cycles, inflation, credit defaults and economic recessions. These are only a few of the indicators which correlate to an overall instability of the economy. This precariousness, which has been protracted for decades since the 1929 market crash, has proved how the current economic system is not working properly under the present conditions.
 After the first World War, the 1920s were defined as the &amp;ldquo;roaring twenties&amp;rdquo; because of the increasing economic prosperity of those years.</description>
     </item>
