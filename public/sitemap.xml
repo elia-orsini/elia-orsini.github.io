@@ -3,12 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://elia-orsini.com/public/posts/1/</loc>
+    <lastmod>2021-03-18T22:25:12+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://elia-orsini.com/public/</loc>
     <lastmod>2021-03-18T22:25:12+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://elia-orsini.com/public/posts/my-first-post/</loc>
+    <loc>https://elia-orsini.com/public/tags/economy/</loc>
     <lastmod>2021-03-18T22:25:12+01:00</lastmod>
   </url>
   
@@ -19,11 +24,6 @@
   
   <url>
     <loc>https://elia-orsini.com/public/tags/</loc>
-    <lastmod>2021-03-18T22:25:12+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://elia-orsini.com/public/tags/untagged/</loc>
     <lastmod>2021-03-18T22:25:12+01:00</lastmod>
   </url>
   
