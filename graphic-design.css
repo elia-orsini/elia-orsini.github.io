@@ -96,13 +96,18 @@ a:hover{
   margin-top: 140px;
   color: white;
   position: relative;
-  text-align: center;
+  text-align: justify;
   margin-left: 20%;
-  font-size: 23px;
+  font-size: 20px;
   margin-right: 20%;
  }
+ .desc-2 h3{
+  font-size: 22px;
+  text-align: center;
+  }
  .desc-2 h2{
   font-size: 45px;
+  text-align: center;
   }
 .photos-section{
 	text-align: center;
@@ -194,8 +199,36 @@ footer {
     flex: 100%;
     max-width: 100%;
   }
-  header{
-  	font-size: 14px;
+  .column-2 {
+    flex: 100%;
+    max-width: 100%;
+    padding: 0 0px;
+  }
+  .desc {
+    font-size: 14px;
+  }
+  .desc-2{
+  font-family: Sora;
+  margin-top: 170px;
+  color: white;
+  position: relative;
+  margin-left: 8%;
+  font-size: 12px;
+  margin-right: 8%;
+ }
+ .desc-2 h3{
+  font-size: 18px;
+  }
+ .desc-2 h2{
+  font-size: 40px;
+  }
+  .header-2 a{
+    font-size: 13px;
+    padding: -1px;
+  }
+  header a{
+  	font-size: 13px;
+    padding: -1px;
   }
   footer{
   	transform: translate(-50%, 0); 
