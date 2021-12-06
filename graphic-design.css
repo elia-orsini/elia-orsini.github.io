@@ -82,6 +82,32 @@ a:hover{
  	text-decoration: underline;
  	text-decoration-color: red;
  }
+ .extralink{
+    font-family:DroidSansMono;
+    font-size:45px;
+ }
+ .extralink:hover{
+    color: #8FFE09;
+    text-decoration: none;
+    font-size:45px;
+ }
+ .extralink h2.ali3n span{
+    position: relative;
+    content: 'al1en-cod3s';
+ }
+ .extralink:hover h2.ali3n span{
+    display: none;
+ }
+  .extralink:hover h2.ali3n::after{
+    content: '◿␅☩₰⧘⦉⥥⛢⽰';
+ }
+ .extralink h2.meta{
+    font-family:DroidSansMono;
+    font-size:45px;
+ }
+ .extralink-sub {
+    font-size:15px;
+ }
  .desc{
   font-family: Sora;
   margin-top: 140px;
@@ -122,6 +148,14 @@ a:hover{
   position: relative;
   width: 84%;
   height: auto;
+  margin-left: 8%;
+  margin-top: 70px;
+}
+.photos-section-3{
+  text-align: center;
+  position: relative;
+  width: 84%;
+  height: 400px;
   margin-left: 8%;
   margin-top: 70px;
 }
