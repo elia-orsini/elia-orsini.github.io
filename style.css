@@ -56,11 +56,6 @@
  	-webkit-transition: all 700ms;
     transition: all 700ms;
  }
- .site-title:hover {
-    -webkit-transform: rotateX(20deg);
-    transform: rotateX(20deg);
-    box-shadow: 0 20px 20px rgba(50,50,50,.2);
-}
  .nameSlideshow{
  	position: inherit;
  	left: 158px;
