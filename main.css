@@ -12,6 +12,7 @@
 }
 .webgl {
     position: absolute;
+	background-image: url("https://play.tailwindcss.com/img/grid.svg"), url('https://play.tailwindcss.com/img/beams.jpg')
 }
 .site-title {
     position: relative;
