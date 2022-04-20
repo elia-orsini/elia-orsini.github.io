@@ -32,9 +32,6 @@ const Home = () => {
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
         <link href="https://rsms.me/inter/inter.css" rel="stylesheet" />
-
-        <link rel="stylesheet" href="./styles/graphic-design.css" />
-	  	  {/* <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script> */}
       </Head>
 
       <div className='flex basis-[calc(1/14*100%)] bg-black'>.</div>

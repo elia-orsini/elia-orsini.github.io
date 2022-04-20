@@ -8,8 +8,7 @@ import { useFrame, useThree } from '@react-three/fiber'
 
 export default function Me({ ...props }) {
   const group = useRef()
-  const req = fetch('/combo.glb');
-  const { nodes, materials, animations } = useGLTF(req)
+  const { nodes, materials, animations } = useGLTF('/combo.glb')
   const { actions } = useAnimations(animations, group)
   useEffect(() => {
     actions["stretch"].play()
@@ -85,4 +84,4 @@ export default function Me({ ...props }) {
   )
 }
 
-// useGLTF.preload('../public/combo.glb')
+useGLTF.preload('/combo.glb')
