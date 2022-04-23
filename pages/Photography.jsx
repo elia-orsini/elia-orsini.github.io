@@ -9,7 +9,7 @@ export default function Photography(props) {
       case 0:
         return (
           <>
-            <span className='absolute mt-20 ml-2 z-0'>light shines in the darkeness of the night;</span>
+            {/* <span className='absolute mt-20 ml-2 z-0'>light shines in the darkeness of the night;</span> */}
 
             <div className='mx-auto my-auto flex flex-col gap-1 w-full h-full mt-40 pt-2 px-2 overflow-scroll bg-black z-10'>
               <div className='relative h-[100rem]'>
@@ -51,7 +51,7 @@ export default function Photography(props) {
       case 1:
         return (
           <>
-            <span className='absolute mt-20 ml-2 z-0'>light shines in the darkeness of the night;</span>
+            {/* <span className='absolute mt-20 ml-2 z-0'>light shines in the darkeness of the night;</span> */}
 
             <div className='mx-auto my-auto flex flex-col gap-1 w-full h-full mt-40 pt-2 px-2 overflow-scroll bg-black z-10'>
               <div className='relative h-[100rem]'>
@@ -93,7 +93,7 @@ export default function Photography(props) {
       case 2:
         return (
           <>
-            <span className='absolute mt-20 ml-2 z-0'>light shines in the darkeness of the night;</span>
+            {/* <span className='absolute mt-20 ml-2 z-0'>light shines in the darkeness of the night;</span> */}
 
             <div className='mx-auto my-auto flex flex-col gap-1 w-full h-full mt-40 pt-2 px-2 overflow-scroll bg-black z-10'>
               <div className='relative h-[100rem]'>

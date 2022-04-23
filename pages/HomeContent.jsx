@@ -26,8 +26,6 @@ export default function HomeContent({ ...props }) {
           }}
           />
       </div>
-      {/* <div className='opacity-100 absolute top-[20rem] w-[50rem] h-[18rem] bg-slate-700 bg-gradient-to-t from-emerald-400'>
-      </div> */}
       {/* <R3f  className="z-0"/> */}
     </>
   )
