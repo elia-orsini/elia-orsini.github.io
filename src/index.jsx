@@ -28,18 +28,14 @@ const Home = () => {
 
   return (
     <div className='flex flex-row min-h-screen min-w-screen'>
-      {/* <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
-        <link href="https://rsms.me/inter/inter.css" rel="stylesheet" />
-
-        <link rel="stylesheet" href="./styles/graphic-design.css" />
-      </Head> */}
 
       <div className='flex basis-[calc(1/14*100%)] bg-black'>.</div>
 
       <div className='basis-[calc(1/14*100%)] bg-black text-white'>
-        <button onClick={()=>setCurrentPage(0)}><img className='w-100 mt-14' src="/elig.gif" width={499} height={285} /></button>
+        <button onClick={()=>setCurrentPage(0)}>
+          <img className='w-100 mt-14' src="/elig.gif" width={499} height={285} />
+        </button>
+
         <div className='text-left font-inter text-gray-500'>
           {currentPage == 1 ? (
             <>
@@ -53,13 +49,17 @@ const Home = () => {
           ) : (
             <button className='mt-10' onClick={()=>setCurrentPage(1)}>photography</button>
           )}
+
           <br />
+
           {currentPage == 2 ? (
             <button className='text-white' onClick={()=>setCurrentPage(2)}>code</button>
           ) : (
             <button className='' onClick={()=>setCurrentPage(2)}>code</button>
           )}
+
           <br />
+
           {currentPage == 3 ? (
             <>
               <button className='text-white' onClick={()=>setCurrentPage(3)}>design</button>

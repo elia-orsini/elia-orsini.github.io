@@ -51,14 +51,14 @@ export default function Design({ ...props }) {
         return (
           <>
             <span className='absolute flex mt-20 ml-2 z-0 text-[2.2rem]'>METAL</span>
-            <span className='absolute flex mt-[8rem] ml-2 z-0 text-[1rem]'>-349483</span>
-            <span className='absolute w-[calc(9/14*100%)] flex mt-[12rem] text-justify ml-2 z-0'>
+            <span className='absolute flex mt-[8rem] ml-2 z-0 text-[1rem]'>0100101010011</span>
+            {/* <span className='absolute w-[calc(9/14*100%)] flex mt-[12rem] text-justify ml-2 z-0'>
             Metallic elements placed in futuristic-dystopic situations represent my visual understanding of the reality around me. 
             Materialism, nihilism and nature intersect to create an utopian 3D world where physical limits, ethical 
             laws and aesthetic standards are all gone and chaos is what remains.
-            </span>
+            </span> */}
 
-            <div className='mx-auto my-auto flex flex-col gap-2 w-full h-max mt-[24rem] pt-2 px-3 overflow-scroll bg-black z-10 mb-20'>
+            <div className='mx-auto my-auto flex flex-col gap-2 w-full h-max mt-[12rem] pt-2 px-3 overflow-scroll bg-black z-10 mb-20'>
               <div className='relative'>
                 <img src="/design/metal/1.jpg" layout="fill" objectFit="contain"/>
               </div>
@@ -91,7 +91,7 @@ export default function Design({ ...props }) {
               </div>
             </div>
 
-            <div className='mx-auto my-auto flex flex-col gap-2 w-full h-max mt-[24rem] pt-2 px-3 overflow-scroll bg-black z-10 mb-20'>
+            <div className='mx-auto my-auto flex flex-col gap-2 w-full h-max mt-[12rem] pt-2 px-3 overflow-scroll bg-black z-10 mb-20'>
               <div className='relative'>
                 <img src="/design/metal/11.jpg" layout="fill" objectFit="contain"/>
               </div>
@@ -124,7 +124,7 @@ export default function Design({ ...props }) {
               </div> */}
             </div>
 
-            <div className='mx-auto my-auto flex flex-col gap-2 w-full h-max mt-[24rem] pt-2 px-3 overflow-scroll bg-black z-10 mb-20'>
+            <div className='mx-auto my-auto flex flex-col gap-2 w-full h-max mt-[12rem] pt-2 px-3 overflow-scroll bg-black z-10 mb-20'>
               <div className='relative'>
                 <img src="/design/metal/22.jpg" layout="fill" objectFit="contain"/>
               </div>
