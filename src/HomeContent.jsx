@@ -25,7 +25,7 @@ export default function HomeContent({ ...props }) {
       {/* <div className='w-[20rem] text-left text-[4rem] opacity-0 mt-[20rem] sm:opacity-100 md:opacity-0 font-inter ml-6 font-bold z-10 xl:opacity-0 opacity-100 leading-none'>
           hiya,<br /> i'm elia.
       </div> */}
-      <R3f className="z-0"/>
+      {/* <R3f className="z-0"/> */}
       <video width="380" height="200" autoPlay muted loop >
         <source src="/3drender.mp4" type="video/mp4"/>
       </video>
