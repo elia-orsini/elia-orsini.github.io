@@ -4,8 +4,8 @@ import Index from './index.jsx'
 
 function App() {
   return (
-    <div className="App bg-black">
-      <Index />
+    <div className="App bg-black w-screen h-screen">
+        <Index />
     </div>
   );
 }
