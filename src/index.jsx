@@ -27,7 +27,7 @@ const Home = () => {
   }
 
   return (
-    <div className='flex flex-row min-h-screen min-w-screen'>
+    <div className='flex flex-row min-h-screen min-w-screen bg-black'>
 
       <div className='flex basis-[calc(1/14*100%)] bg-black'>.</div>
 

@@ -26,7 +26,7 @@ export default function HomeContent({ ...props }) {
           hiya,<br /> i'm elia.
       </div> */}
       {/* <R3f className="z-0"/> */}
-      <video width="380" height="200" autoPlay muted loop >
+      <video width="380" height="200" playsInline autoPlay muted loop >
         <source src="/3drender.mp4" type="video/mp4"/>
       </video>
     </>
