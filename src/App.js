@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import Index from './Index.jsx'
+import Index from './index.jsx'
 import {Helmet} from "react-helmet";
 
 function App() {
