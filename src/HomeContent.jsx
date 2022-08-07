@@ -1,6 +1,5 @@
 
 import React, { useRef, useEffect } from 'react'
-import R3f from './R3f'
 import Typewriter from 'typewriter-effect';
 
 export default function HomeContent({ ...props }) {
