@@ -2,7 +2,6 @@
 import React, { useRef, useEffect } from 'react'
 
 export default function Photography(props) {
-
   function renderPhotos() {
     switch(props.photosIndex) {
       case 0:
@@ -10,61 +9,35 @@ export default function Photography(props) {
           <>
             {/* <span className='absolute mt-20 ml-2 z-0'>light shines in the darkeness of the night;</span> */}
 
-            <div className='mx-auto my-auto grid grid-flow-col gap-x-1 w-full h-full mt-40 pt-0 xl:pt-2 px-0 xl:px-2 bg-black z-10 xl:grid-rows-3 grid-rows-[150px_150px_150px_150px_150px_150px_150px_150px_150px_150px]'>
-              <div className='relative h-100'>
+            <div className='mx-auto my-auto columns-1 lg:columns-2 xl:columns-3 gap-1 w-full h-max mt-44 mb-40 xl:pr-4 z-10 bg-black'>
+              <div className='relative mt-0 border border-[0.02em]'>
                 <img src="/photography/nightlife/1.jpg" layout="fill" objectFit="contain"/>
               </div>
-              <div className='relative h-100'>
+              <div className='relative mt-5 border border-[0.02em]'>
                 <img src="/photography/nightlife/2.jpg" layout="fill" objectFit="contain"/>
               </div>
-              <div className='relative h-100'>
+              <div className='relative mt-5 border border-[0.02em]'>
                 <img src="/photography/nightlife/3.jpg" layout="fill" objectFit="contain"/>
               </div>
-              <div className='relative h-100'>
+              <div className='relative mt-5 border border-[0.02em]'>
                 <img src="/photography/nightlife/4.jpg" layout="fill" objectFit="contain"/>
               </div>
-              <div className='relative h-100'>
+              <div className='relative mt-5 border border-[0.02em]'>
                 <img src="/photography/nightlife/5.jpg" layout="fill" objectFit="contain"/>
               </div>
-              <div className='relative h-100'>
+              <div className='relative mt-5 border border-[0.02em]'>
                 <img src="/photography/nightlife/6.jpg" layout="fill" objectFit="contain"/>
               </div>
-              <div className='relative h-100'>
+              <div className='relative mt-5 border border-[0.02em]'>
                 <img src="/photography/nightlife/7.jpg" layout="fill" objectFit="contain"/>
               </div>
-              <div className='relative h-100'>
+              <div className='relative mt-5 border border-[0.02em]'>
                 <img src="/photography/nightlife/8.jpg" layout="fill" objectFit="contain"/>
               </div>
-              <div className='relative h-100'>
+              <div className='relative mt-5 border border-[0.02em]'>
                 <img src="/photography/nightlife/9.jpg" layout="fill" objectFit="contain"/>
               </div>
-              <div className='relative h-100'>
-              </div>
             </div>
-
-            {/* <div className='mx-auto my-auto flex flex-row gap-1 w-full h-full mt-40 pt-2 px-2 bg-black z-10'>
-              <div className='relative h-100'>
-                <img src="/photography/nightlife/4.jpg" layout="fill" objectFit="contain"/>
-              </div>
-              <div className='relative h-100'>
-                <img src="/photography/nightlife/5.jpg" layout="fill" objectFit="contain"/>
-              </div>
-              <div className='relative h-100'>
-                <img src="/photography/nightlife/6.jpg" layout="fill" objectFit="contain"/>
-              </div>
-            </div>
-
-            <div className='mx-auto my-auto flex flex-row gap-1 w-full h-full mt-40 pt-2 px-2 mb-16 bg-black z-10'>
-              <div className='relative h-100'>
-                <img src="/photography/nightlife/7.jpg" layout="fill" objectFit="contain"/>
-              </div>
-              <div className='relative h-100'>
-                <img src="/photography/nightlife/8.jpg" layout="fill" objectFit="contain"/>
-              </div>
-              <div className='relative h-100'>
-                <img src="/photography/nightlife/9.jpg" layout="fill" objectFit="contain"/>
-              </div>
-            </div> */}
           </>
         )
       case 1:
@@ -72,145 +45,78 @@ export default function Photography(props) {
           <>
             {/* <span className='absolute mt-20 ml-2 z-0'>light shines in the darkeness of the night;</span> */}
 
-            <div className='mx-auto my-auto grid grid-flow-col gap-x-1 w-full h-full mt-40 pt-0 xl:pt-2 px-0 xl:px-2 bg-black z-10 xl:grid-rows-3 grid-rows-[150px_150px_150px_150px_150px_150px_150px_150px_150px_150px]'>
-              <div className='relative h-100'>
+            <div className='mx-auto my-auto columns-1 lg:columns-2 xl:columns-3 gap-3 w-full h-max mt-44 mb-40 xl:pr-4 z-10 bg-black'>
+              <div className='relative mt-0 border border-[0.02em]'>
                 <img src="/photography/cinematic/1.jpg" layout="fill" objectFit="contain"/>
               </div>
-              <div className='relative h-100'>
+              <div className='relative mt-5 border border-[0.02em]'>
                 <img src="/photography/cinematic/2.jpg" layout="fill" objectFit="contain"/>
               </div>
-              <div className='relative h-100'>
+              <div className='relative mt-5 border border-[0.02em]'>
                 <img src="/photography/cinematic/3.jpg" layout="fill" objectFit="contain"/>
               </div>
-              <div className='relative h-100'>
+              <div className='relative mt-5 border border-[0.02em]'>
                 <img src="/photography/cinematic/4.jpg" layout="fill" objectFit="contain"/>
               </div>
-              <div className='relative h-100'>
+              <div className='relative mt-5 border border-[0.02em]'>
                 <img src="/photography/cinematic/5.jpg" layout="fill" objectFit="contain"/>
               </div>
-              <div className='relative h-100'>
+              <div className='relative mt-5 border border-[0.02em]'>
                 <img src="/photography/cinematic/6.jpg" layout="fill" objectFit="contain"/>
               </div>
-              <div className='relative h-100'>
+              <div className='relative mt-5 border border-[0.02em]'>
                 <img src="/photography/cinematic/7.jpg" layout="fill" objectFit="contain"/>
               </div>
-              <div className='relative h-100'>
+              <div className='relative mt-5 border border-[0.02em]'>
                 <img src="/photography/cinematic/8.jpg" layout="fill" objectFit="contain"/>
               </div>
-              <div className='relative h-100'>
+              <div className='relative mt-5 border border-[0.02em]'>
                 <img src="/photography/cinematic/9.jpg" layout="fill" objectFit="contain"/>
-              </div>
-              <div className='relative h-100'>
               </div>
             </div>
 
-            {/* <div className='mx-auto my-auto flex flex-col gap-1 w-full h-full mt-40 pt-2 px-2 bg-black z-10'>
-              <div className='relative h-100'>
-                <img src="/photography/cinematic/4.jpg" layout="fill" objectFit="contain"/>
-              </div>
-              <div className='relative h-100'>
-                <img src="/photography/cinematic/5.jpg" layout="fill" objectFit="contain"/>
-              </div>
-              <div className='relative h-100'>
-                <img src="/photography/cinematic/6.jpg" layout="fill" objectFit="contain"/>
-              </div>
-            </div>
-
-            <div className='mx-auto my-auto flex flex-col gap-1 w-full h-full mt-40 pt-2 px-2 mb-16 bg-black z-10'>
-              <div className='relative h-100'>
-                <img src="/photography/cinematic/7.jpg" layout="fill" objectFit="contain"/>
-              </div>
-              <div className='relative h-100'>
-                <img src="/photography/cinematic/8.jpg" layout="fill" objectFit="contain"/>
-              </div>
-              <div className='relative h-100'>
-                <img src="/photography/cinematic/9.jpg" layout="fill" objectFit="contain"/>
-              </div>
-            </div> */}
           </>
         )
       case 2:
         return (
-          <>
-            {/* <span className='absolute mt-20 ml-2 z-0'>light shines in the darkeness of the night;</span> */}
-
-            <div className='mx-auto my-auto grid grid-flow-col gap-x-1 w-full h-full mt-40 pt-0 xl:pt-2 px-0 xl:px-2 bg-black z-10 xl:grid-rows-3 grid-rows-[300px_250px_250px_250px_300px_290px_300px_250px_250px_250px_270px_150px_250px]'>
-              <div className='relative h-100'>
-                <img src="/photography/portraits/1.jpg" layout="fill" objectFit="contain"/>
+            <div className='mx-auto my-auto columns-1 lg:columns-2 xl:columns-3 gap-3 w-full h-max mt-44 mb-40 xl:pr-4 z-10 bg-black'>
+              <div className='relative border border-[0.02em] mt-0'>
+                <img src="/photography/portraits2/1.jpg" layout="fill" objectFit="contain"/>
               </div>
-              <div className='relative h-100'>
-                <img src="/photography/portraits/2.jpg" layout="fill" objectFit="contain"/>
+              <div className='relative border border-[0.02em] mt-4'>
+                <img src="/photography/portraits2/2.jpg" layout="fill" objectFit="contain"/>
               </div>
-              <div className='relative h-100'>
-                <img src="/photography/portraits/3.jpg" layout="fill" objectFit="contain"/>
+              <div className='relative border border-[0.02em] mt-4'>
+                <img src="/photography/portraits2/3.jpg" layout="fill" objectFit="contain"/>
               </div>
-              <div className='relative h-100'>
-                <img src="/photography/portraits/4.jpg" layout="fill" objectFit="contain"/>
+              <div className='relative border border-[0.02em] mt-4'>
+                <img src="/photography/portraits2/4.jpg" layout="fill" objectFit="contain"/>
               </div>
-              <div className='relative h-100'>
-                <img src="/photography/portraits/5.jpg" layout="fill" objectFit="contain"/>
+              <div className='relative border border-[0.02em] mt-4'>
+                <img src="/photography/portraits2/13.jpg" layout="fill" objectFit="contain"/>
               </div>
-              <div className='relative h-100'>
-                <img src="/photography/portraits/6.jpg" layout="fill" objectFit="contain"/>
+              <div className='relative border border-[0.02em] mt-4'>
+                <img src="/photography/portraits2/6.jpg" layout="fill" objectFit="contain"/>
               </div>
-              <div className='relative h-100'>
-                <img src="/photography/portraits/7.jpg" layout="fill" objectFit="contain"/>
+              <div className='relative border border-[0.02em] mt-4'>
+                <img src="/photography/portraits2/7.jpg" layout="fill" objectFit="contain"/>
               </div>
-              <div className='relative h-100'>
-                <img src="/photography/portraits/13.jpg" layout="fill" objectFit="contain"/>
+              <div className='relative border border-[0.02em] mt-4'>
+                <img src="/photography/portraits2/5.jpg" layout="fill" objectFit="contain"/>
               </div>
-              <div className='relative h-100'>
-                <img src="/photography/portraits/9.jpg" layout="fill" objectFit="contain"/>
+              <div className='relative border border-[0.02em] mt-4'>
+                <img src="/photography/portraits2/9.jpg" layout="fill" objectFit="contain"/>
               </div>
-              <div className='relative h-100'>
-                <img src="/photography/portraits/10.jpg" layout="fill" objectFit="contain"/>
+              <div className='relative border border-[0.02em] mt-4'>
+                <img src="/photography/portraits2/10.jpg" layout="fill" objectFit="contain"/>
               </div>
-              <div className='relative h-100'>
-                <img src="/photography/portraits/11.jpg" layout="fill" objectFit="contain"/>
+              <div className='relative border border-[0.02em] mt-4'>
+                <img src="/photography/portraits2/11.jpg" layout="fill" objectFit="contain"/>
               </div>
-              <div className='relative h-100'>
-                <img src="/photography/portraits/12.jpg" layout="fill" objectFit="contain"/>
-              </div>
-              <div className='relative h-100'>
+              <div className='relative border border-[0.02em] mt-4'>
+                <img src="/photography/portraits2/12.jpg" layout="fill" objectFit="contain"/>
               </div>
             </div>
-
-            {/* <div className='mx-auto my-auto flex flex-col gap-1 w-full h-full mt-40 pt-2 px-2 bg-black z-10'>
-              <div className='relative h-100'>
-                <img src="/photography/portraits/4.jpg" layout="fill" objectFit="contain"/>
-              </div>
-              <div className='relative h-100'>
-                <img src="/photography/portraits/5.jpg" layout="fill" objectFit="contain"/>
-              </div>
-              <div className='relative h-100'>
-                <img src="/photography/portraits/6.jpg" layout="fill" objectFit="contain"/>
-              </div>
-            </div>
-
-            <div className='mx-auto my-auto flex flex-col gap-1 w-full h-full mt-40 pt-2 px-2 mb-16 bg-black z-10'>
-              <div className='relative h-100'>
-                <img src="/photography/portraits/7.jpg" layout="fill" objectFit="contain"/>
-              </div>
-              <div className='relative h-100'>
-                <img src="/photography/portraits/13.jpg" layout="fill" objectFit="contain"/>
-              </div>
-              <div className='relative h-100'>
-                <img src="/photography/portraits/9.jpg" layout="fill" objectFit="contain"/>
-              </div>
-            </div>
-
-            <div className='mx-auto my-auto flex flex-col gap-1 w-full h-full mt-40 pt-2 px-2 overflow-scroll mb-16 bg-black z-10'>
-              <div className='relative h-100'>
-                <img src="/photography/portraits/10.jpg" layout="fill" objectFit="contain"/>
-              </div>
-              <div className='relative h-100'>
-                <img src="/photography/portraits/11.jpg" layout="fill" objectFit="contain"/>
-              </div>
-              <div className='relative h-100'>
-                <img src="/photography/portraits/12.jpg" layout="fill" objectFit="contain"/>
-              </div>
-            </div> */}
-          </>
         )
     }
   }
