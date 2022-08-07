@@ -13,6 +13,7 @@ import Cinematic from './Cinematic';
 import Sunshi from './Sunshi';
 import TwoD from './2d';
 import Metal from './Metal';
+import Code from './Code';
 
 const Home = () => {
 
@@ -80,6 +81,8 @@ const Home = () => {
                 <Route path="/nightlife" element={<Nightlife />} />
                 <Route path="/cinematic" element={<Cinematic />} />
                 <Route path="/portraits" element={<Portraits />} />
+
+                <Route path="/code" element={<Code />} />
 
                 <Route path="/design" element={<Sunshi />} />
                 <Route path="/sunshi" element={<Sunshi />} />

@@ -1,8 +1,6 @@
 
-import React, { useRef, useEffect } from 'react'
-
-export default function Photography({ ...props }) {
+export default function Code() {
   return (
-    <p className='mx-auto my-auto'>code</p>
+    <p className='mx-auto my-auto text-2xl'>🛠</p>
   )
 }
