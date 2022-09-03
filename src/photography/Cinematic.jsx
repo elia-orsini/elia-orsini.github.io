@@ -3,7 +3,7 @@ import Image from '../utils/Image'
 export default function Cinematic() {
     return (
         <>
-          <div className='mx-auto my-auto columns-1 lg:columns-2 xl:columns-3 gap-3 w-full h-max mt-44 mb-40 xl:pr-4 z-10 bg-black'>
+          <div className='mx-auto my-auto columns-1 lg:columns-2 xl:columns-3 gap-3 w-full h-max mt-2 sm:mt-44 mb-0 sm:mb-40 xl:pr-4 z-10 bg-black'>
               <div className='relative mt-0'>
                 <Image src="/photography/cinematic/1.jpg" thumb="/photography/cinematic_blur/1.jpg" />
               </div>

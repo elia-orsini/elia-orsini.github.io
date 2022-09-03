@@ -10,7 +10,7 @@ export default function Metal() {
         laws and aesthetic standards are all gone and chaos is what remains.
         </span> */}
 
-        <div className='mx-auto my-auto columns-2 xl:columns-4 gap-2 w-full h-max mt-44 mb-40 xl:pr-4 z-10 bg-black'>
+        <div className='mx-auto my-auto columns-2 xl:columns-4 gap-2 w-full h-max mt-2 sm:mt-44 mb-0 sm:mb-40 xl:pr-4 z-10 bg-black'>
           <div className='relative my-0 border border-[0.02em]'>
             <img src="/design/metal/1.jpg" layout="fill" objectFit="contain"/>
           </div>

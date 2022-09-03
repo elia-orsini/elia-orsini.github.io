@@ -15,7 +15,7 @@ export default function Sunshi() {
         every corner of the city is tinted by a delicate palette of warm colours. everything worked out in the end.
         </span> */}
 
-        <div className='mx-auto my-auto columns-1 lg:columns-2 gap-2 w-full h-max mt-44 mb-40 xl:pr-4 z-10 bg-black'>
+        <div className='mx-auto my-auto columns-1 lg:columns-2 gap-2 w-full h-max mt-2 sm:mt-44 mb-0 sm:mb-40 xl:pr-4 z-10 bg-black'>
           <div className='relative my-0 border border-[0.02em]'>
             <img src="/design/sunshi/1.jpg" layout="fill" objectFit="contain"/>
           </div>
