@@ -10,12 +10,17 @@ export default function Code() {
           <li className="py-2">
           <a href="https://github.com/elia-orsini/BlenderWebViewer" target="_blank"><h1 className="font-bold underline underline-offset-1 decoration-2">BlenderWebViewer</h1></a>
             <p className="text-sm text-gray-200">A web viewer for blender.</p>
-            <p className="text-xs font-light text-gray-400">PYTHON - REACT - THREE.JS</p>
+            <p className="text-xs font-light text-gray-400">PYTHON - REACT - REACT THREE FIBER</p>
           </li>
           <li className="py-2">
           <a href="https://github.com/elia-orsini/mars-imagery-classification" target="_blank"><h1 className="font-bold underline underline-offset-1 decoration-2">mars-imagery-classification</h1></a>
             <p className="text-sm sm:pr-40 text-gray-200">Neural Network that classifies images taken by the Curiosity rover on the surface of Mars.</p>
             <p className="text-xs font-light text-gray-400">PYTHON - TENSORFLOW</p>
+          </li>
+          <li className="py-2">
+          <a href="https://r124.vercel.app" target="_blank"><h1 className="font-bold underline underline-offset-1 decoration-2">HouseOfRome map</h1></a>
+            <p className="text-sm sm:pr-40 text-gray-200">3D interactive map optimised for the browser.</p>
+            <p className="text-xs font-light text-gray-400">JAVASCRIPT - THREE.JS</p>
           </li>
           <li className="py-2">
             <a href="https://github.com/sebastian-axell/munchpal" target="_blank"><h1 className="font-bold underline underline-offset-1 decoration-2 block inline">munchpal</h1></a>
@@ -39,12 +44,12 @@ export default function Code() {
         <ul className="sm:ml-[3em] text-left">
           <li className="py-2">
             <a href="https://insomniaevents.xyz" target="_blank"><h1 className="font-bold underline underline-offset-1 decoration-2">Insomnia</h1></a>
-            <p className="text-sm text-gray-200">website for Insomnia</p>
+            <p className="text-sm text-gray-200">website for Insomnia.</p>
             <p className="text-xs font-light text-gray-400">REACT - TAILWIND CSS</p>
           </li>
           <li className="py-2">
             <a href="https://lamacinasonora.com" target="_blank"><h1 className="font-bold underline underline-offset-1 decoration-2">La Macina Sonora</h1></a>
-            <p className="text-sm text-gray-200">website for the recording studio La Macina Sonora</p>
+            <p className="text-sm text-gray-200">website for the recording studio La Macina Sonora.</p>
             <p className="text-xs font-light text-gray-400">REACT - TAILWIND CSS</p>
           </li>
         </ul>
