@@ -9,37 +9,43 @@ export default function Code() {
         <ul className="sm:ml-20 text-left">
           <li className="py-2">
           <a href="https://github.com/elia-orsini/BlenderWebViewer" target="_blank"><h1 className="font-bold underline underline-offset-1 decoration-2">BlenderWebViewer</h1></a>
-            <p className="text-sm">A web viewer for blender.</p>
+            <p className="text-sm text-gray-200">A web viewer for blender.</p>
+            <p className="text-xs font-light text-gray-400">PYTHON - REACT - THREE.JS</p>
           </li>
           <li className="py-2">
           <a href="https://github.com/elia-orsini/mars-imagery-classification" target="_blank"><h1 className="font-bold underline underline-offset-1 decoration-2">mars-imagery-classification</h1></a>
-            <p className="text-sm sm:pr-40">Neural Network that classifies images taken by the Curiosity rover on the surface of Mars.</p>
+            <p className="text-sm sm:pr-40 text-gray-200">Neural Network that classifies images taken by the Curiosity rover on the surface of Mars.</p>
+            <p className="text-xs font-light text-gray-400">PYTHON - TENSORFLOW</p>
           </li>
           <li className="py-2">
             <a href="https://github.com/sebastian-axell/munchpal" target="_blank"><h1 className="font-bold underline underline-offset-1 decoration-2 block inline">munchpal</h1></a>
             <a href="https://munchpal.herokuapp.com" target="_blank"><h1 className="block inline pl-6 text-sm font-base underline underline-offset-1 decoration-1">demo</h1></a>
-            <p className="text-sm">peer-to-peer food sharing.</p>
+            <p className="text-sm text-gray-200">peer-to-peer food sharing.</p>
+            <p className="text-xs font-light text-gray-400">DJANGO - REACT - REDUX - TAILWIND CSS</p>
           </li>
           <li className="py-2">
             <a href="https://github.com/elia-orsini/plantie" target="_blank"><h1 className="font-bold underline underline-offset-1 decoration-2 block inline">plantie</h1></a>
             <a href="https://plantie.fly.dev" target="_blank"><h1 className="block inline pl-6 text-sm font-base underline underline-offset-1 decoration-1">demo</h1></a>
-            <p className="text-sm">peer-to-peer plant-sitting.</p>
+            <p className="text-sm text-gray-200">peer-to-peer plant-sitting.</p>
+            <p className="text-xs font-light text-gray-400">REMIX - REACT - TAILWIND CSS</p>
           </li>
         </ul>
       </div>
 
       <div className='flex flex-col sm:flex-row sm:mt-20 mt-20'>
-        <p className="text-left font-black text-2xl sm:text-xl pb-4">
+        <p className="text-left font-black text-2xl sm:text-xl pb-4 pd-20">
           Websites I built
         </p>
-        <ul className="sm:ml-[2.6em] text-left">
+        <ul className="sm:ml-[3em] text-left">
           <li className="py-2">
             <a href="https://insomniaevents.xyz" target="_blank"><h1 className="font-bold underline underline-offset-1 decoration-2">Insomnia</h1></a>
-            <p className="text-sm">website for Insomnia</p>
+            <p className="text-sm text-gray-200">website for Insomnia</p>
+            <p className="text-xs font-light text-gray-400">REACT - TAILWIND CSS</p>
           </li>
           <li className="py-2">
             <a href="https://lamacinasonora.com" target="_blank"><h1 className="font-bold underline underline-offset-1 decoration-2">La Macina Sonora</h1></a>
-            <p className="text-sm">website for the recording studio La Macina Sonora</p>
+            <p className="text-sm text-gray-200">website for the recording studio La Macina Sonora</p>
+            <p className="text-xs font-light text-gray-400">REACT - TAILWIND CSS</p>
           </li>
         </ul>
       </div>
