@@ -37,10 +37,10 @@ const Home = () => {
   return (
       <div className='flex flex-col sm:flex-row h-max min-h-screen min-w-screen bg-black '>
         <div className='flex basis-[calc(1/14*100%)] bg-black'>.</div>
-          <div className='basis-[calc(1/14*100%)] bg-black text-white'>
+          <div className='basis-[calc(1/14*100%)] bg-black text-white text-center sm:text-left'>
             <Link to="/">
               <button onClick={()=>setCurrentPage(0)}>
-                <img className='w-40 sm:w-100 mt-0 sm:mt-14' src="/elig.gif" width={499} height={285} />
+                <img className='w-24 sm:w-100 mt-0 sm:mt-14' src="/elig.gif" width={499} height={285} />
               </button>
             </Link>
 
@@ -49,9 +49,9 @@ const Home = () => {
             <Link to="/photography"><button className={`w-full text-center sm:text-left mt-3 sm:mt-10 ${currentPage === 1 ? 'font-black text-white' : ''}`} onClick={()=>setPhotographySubPage(0)}>photography</button></Link>
               {currentPage === 1 ? (
                 <>
-                  <Link to="/nightlife"><button className={`w-80 text-center sm:text-left block sm:ml-7 ${photographySubPage == 0 ? 'text-white' : ''}`} onClick={()=>setPhotographySubPage(0)}>nightlife</button></Link>
-                  <Link to="/cinematic"><button className={`w-80 text-center sm:text-left block sm:ml-7 ${photographySubPage == 1 ? 'text-white' : ''}`} onClick={()=>setPhotographySubPage(1)}>cinematic</button></Link>
-                  <Link to="/portraits"><button className={`sm:mb-0 mb-2 w-80 text-center sm:text-left block sm:ml-7 ${photographySubPage == 2 ? 'text-white' : ''}`} onClick={()=>setPhotographySubPage(2)}>portraits</button></Link>
+                  <Link to="/nightlife"><button className={`w-full text-center sm:text-left block sm:ml-7 ${photographySubPage == 0 ? 'text-white' : ''}`} onClick={()=>setPhotographySubPage(0)}>nightlife</button></Link>
+                  <Link to="/cinematic"><button className={`w-full text-center sm:text-left block sm:ml-7 ${photographySubPage == 1 ? 'text-white' : ''}`} onClick={()=>setPhotographySubPage(1)}>cinematic</button></Link>
+                  <Link to="/portraits"><button className={`sm:mb-0 mb-2 w-full text-center sm:text-left block sm:ml-7 ${photographySubPage == 2 ? 'text-white' : ''}`} onClick={()=>setPhotographySubPage(2)}>portraits</button></Link>
                 </>
               ) : null}
 
