@@ -7,7 +7,7 @@ export default function Code() {
           <p className="text-left font-black text-2xl pb-4">
             Side projects
           </p>
-          <p className="text-left font-black text-2xl sm:text-xl pb-4 hidden sm:block mt-[24.7em]">
+          <p className="text-left font-black text-2xl sm:text-xl pb-4 hidden sm:block mt-[21em]">
             Websites I built
           </p>
         </div>
@@ -39,11 +39,11 @@ export default function Code() {
             <p className="text-sm text-gray-200">peer-to-peer plant-sitting.</p>
             <p className="text-xs font-light text-gray-400">REMIX - REACT - TAILWIND CSS</p>
           </li>
-          <li className="py-2">
+          {/* <li className="py-2">
           <a href="https://r124.vercel.app" target="_blank"><h1 className="font-bold underline underline-offset-1 decoration-2">3d Immersive Scenes</h1></a>
             <p className="text-sm text-gray-200">3D interactive map optimised for the browser.</p>
             <p className="text-xs font-light text-gray-400">REACT - REACT-THREE-FIBER - RAPIER</p>
-          </li>
+          </li> */}
           <ul className="text-left pb-20 hidden sm:block mt-20">
             <li className="py-2">
               <a href="https://insomniaevents.xyz" target="_blank"><h1 className="font-bold underline underline-offset-1 decoration-2">Insomnia</h1></a>
