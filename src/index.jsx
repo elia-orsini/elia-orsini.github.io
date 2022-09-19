@@ -15,6 +15,7 @@ import Sunshi from './design/Sunshi';
 import TwoD from './design/2d';
 import Metal from './design/Metal';
 import Code from './Code';
+import Calendar from './Calendar';
 import { useEffect } from 'react';
 
 const Home = () => {
@@ -107,6 +108,8 @@ const Home = () => {
                 <Route path="/sunshi" element={<Sunshi />} />
                 <Route path="/metal" element={<Metal />} />
                 <Route path="/2d" element={<TwoD />} />
+
+                <Route path="/calendar" element={<Calendar />} />
               </Routes>
           </div>
         <div className='flex basis-[calc(1/14*100%)] text-gray-500 py-14 z-0'>
