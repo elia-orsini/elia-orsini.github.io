@@ -19,7 +19,7 @@ export default function HomeContent({ ...props }) {
           />
       </div>
 
-      <video className='w-100' width="350" playsInline autoPlay muted loop >
+      <video className='w-80 mt-4 sm:mt-0' width="350" playsInline autoPlay muted loop >
         <source src="/3drender.mp4" type="video/mp4"/>
       </video>
     </>
