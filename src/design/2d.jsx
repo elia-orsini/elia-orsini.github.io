@@ -13,7 +13,7 @@ export default function TwoD() {
           <Image src="/design/2d/3.jpg" />
         </div>
         <div className='relative my-2'>
-          <Image src="/design/2d/4.jpg" />
+          <Image src="/design/2d/4.jpg" /> 
         </div>
         <div className='relative my-2'>
           <Image src="/design/2d/10.jpg" />
