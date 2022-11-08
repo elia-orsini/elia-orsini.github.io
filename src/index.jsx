@@ -45,32 +45,33 @@ const Home = () => {
   return (
       <div className='flex font-ia flex-col sm:flex-row h-max min-h-screen min-w-screen bg-black '>
         <div className='flex basis-[calc(1/14*100%)] bg-black'>.</div>
-          <div className='basis-[calc(1/14*100%)] bg-black text-white text-center sm:text-left'>
+          <div className='basis-[calc(2/14*100%)] text-white text-center sm:text-left'>
+
+            <div className='font-ia text-gray-500 px-10 sm:px-0 text-base sm:fixed'>
+
             <Link to="/">
               <button onClick={()=>setCurrentPage(0)}>
                 <img alt="elig_logo" className='w-20 mt-0 mb-4 sm:mb-0 sm:mt-14' src="/elig.jpeg" width={499} height={285} />
               </button>
             </Link>
 
-            <div className='font-ia text-gray-500 px-10 sm:px-0 text-base'>
-
-            <Link to="/photography"><button className={`w-full text-left sm:text-center sm:text-left mt-3 sm:mt-10 ${currentPage === 1 ? 'font-black text-white' : ''}`} onClick={()=>setPhotographySubPage(0)}>photography</button></Link>
+            <Link to="/photography"><button className={`w-full text-left  mt-3 sm:mt-10 ${currentPage === 1 ? 'font-black text-white' : ''}`} onClick={()=>setPhotographySubPage(0)}>photography</button></Link>
               {currentPage === 1 ? (
                 <>
-                  <Link to="/nightlife"><button className={`w-full text-left sm:text-center sm:text-left block ml-7 ${photographySubPage === 0 ? 'text-gray-200' : ''}`} onClick={()=>setPhotographySubPage(0)}>nightlife</button></Link>
-                  <Link to="/cinematic"><button className={`w-full text-left sm:text-center sm:text-left block ml-7 ${photographySubPage === 1 ? 'text-gray-200' : ''}`} onClick={()=>setPhotographySubPage(1)}>cinematic</button></Link>
-                  <Link to="/portraits"><button className={`sm:mb-0 mb-2 w-full text-left sm:text-center sm:text-left block ml-7 ${photographySubPage === 2 ? 'text-gray-200' : ''}`} onClick={()=>setPhotographySubPage(2)}>portraits</button></Link>
+                  <Link to="/nightlife"><button className={`w-full text-left  block ml-7 ${photographySubPage === 0 ? 'text-gray-200' : ''}`} onClick={()=>setPhotographySubPage(0)}>nightlife</button></Link>
+                  <Link to="/cinematic"><button className={`w-full text-left  block ml-7 ${photographySubPage === 1 ? 'text-gray-200' : ''}`} onClick={()=>setPhotographySubPage(1)}>cinematic</button></Link>
+                  <Link to="/portraits"><button className={`sm:mb-0 mb-2 w-full text-left  block ml-7 ${photographySubPage === 2 ? 'text-gray-200' : ''}`} onClick={()=>setPhotographySubPage(2)}>portraits</button></Link>
                 </>
               ) : null}
 
-              <Link to="/code"><button className={`w-full text-left sm:text-center sm:text-left block ${currentPage === 2 ? 'font-black text-white' : ''}`} onClick={()=>setCurrentPage(2)}>code</button></Link>
+              <Link to="/code"><button className={`w-full text-left  block ${currentPage === 2 ? 'font-black text-white' : ''}`} onClick={()=>setCurrentPage(2)}>code</button></Link>
 
-              <Link to="/design"><button className={`w-full text-left sm:text-center sm:text-left ${currentPage === 3 ? 'font-black text-white' : ''}`} onClick={()=>setDesignSubPage(0)}>design</button></Link>
+              <Link to="/design"><button className={`w-full text-left  ${currentPage === 3 ? 'font-black text-white' : ''}`} onClick={()=>setDesignSubPage(0)}>design</button></Link>
               {currentPage === 3 ? (
                 <>
-                  <Link to="/sunshi"><button className={`w-full text-left sm:text-center sm:text-left block ml-7 ${designSubPage === 0 ? 'text-gray-200' : ''}`} onClick={()=>setDesignSubPage(0)}>sunshi</button></Link>
-                  <Link to="/metal"><button className={`w-full text-left sm:text-center sm:text-left block ml-7 ${designSubPage === 1 ? 'text-gray-200' : ''}`} onClick={()=>setDesignSubPage(1)}>metal</button></Link>
-                  <Link to="/2d"><button className={`w-full text-left sm:text-center sm:text-left block ml-7 ${designSubPage === 2 ? 'text-gray-200' : ''}`} onClick={()=>setDesignSubPage(2)}>2d</button></Link>
+                  <Link to="/sunshi"><button className={`w-full text-left  block ml-7 ${designSubPage === 0 ? 'text-gray-200' : ''}`} onClick={()=>setDesignSubPage(0)}>sunshi</button></Link>
+                  <Link to="/metal"><button className={`w-full text-left  block ml-7 ${designSubPage === 1 ? 'text-gray-200' : ''}`} onClick={()=>setDesignSubPage(1)}>metal</button></Link>
+                  <Link to="/2d"><button className={`w-full text-left  block ml-7 ${designSubPage === 2 ? 'text-gray-200' : ''}`} onClick={()=>setDesignSubPage(2)}>2d</button></Link>
                 </>
               ) : null}
 
