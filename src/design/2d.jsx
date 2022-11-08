@@ -6,43 +6,43 @@ export default function TwoD() {
         <div className='relative my-0'>
           <Image src="/design/2d/1.jpg" />
         </div>
-        <div className='relative my-2'>
+        <div className='relative my-3'>
           <Image src="/design/2d/2.jpg" />
         </div>
-        <div className='relative my-2'>
+        <div className='relative my-3'>
           <Image src="/design/2d/3.jpg" />
         </div>
-        <div className='relative my-2'>
+        <div className='relative my-3'>
           <Image src="/design/2d/4.jpg" /> 
         </div>
-        <div className='relative my-2'>
+        <div className='relative my-3'>
           <Image src="/design/2d/10.jpg" />
         </div>
-        <div className='relative my-2'>
+        <div className='relative my-3'>
           <Image src="/design/2d/6.jpg" />
         </div>
-        <div className='relative my-2'>
+        <div className='relative my-3'>
           <Image src="/design/2d/7.jpg" />
         </div>
-        <div className='relative my-2'>
+        <div className='relative my-3'>
           <Image src="/design/2d/9.jpg" />
         </div>
-        <div className='relative my-2'>
+        <div className='relative my-3'>
           <Image src="/design/2d/8.jpg" />
         </div>
-        <div className='relative my-2'>
+        <div className='relative my-3'>
           <Image src="/design/2d/5.jpg" />
         </div>
-        <div className='relative my-2'>
+        <div className='relative my-3'>
           <Image src="/design/2d/13.jpg" />
         </div>
-        <div className='relative my-2'>
+        <div className='relative my-3'>
           <Image src="/design/2d/12.jpg" />
         </div>
-        <div className='relative my-2'>
+        <div className='relative my-3'>
           <Image src="/design/2d/11.jpg" />
         </div>
-        <div className='relative my-2'>
+        <div className='relative my-3'>
           <Image src="/design/2d/14.jpg" />
         </div>
       </div>

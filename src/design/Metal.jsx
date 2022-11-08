@@ -15,82 +15,82 @@ export default function Metal() {
           <div className='relative my-0'>
             <Image src="/design/metal/1.jpg" />
           </div>
-          <div className='relative my-2'>
+          <div className='relative my-3'>
             <Image src="/design/metal/2.jpg" />
           </div>
-          <div className='relative my-2'>
+          <div className='relative my-3'>
             <Image src="/design/metal/3.jpg" />
           </div>
-          <div className='relative my-2'>
+          <div className='relative my-3'>
             <Image src="/design/metal/4.jpg" />
           </div>
-          <div className='relative my-2'>
+          <div className='relative my-3'>
             <Image src="/design/metal/5.jpg" />
           </div>
-          <div className='relative my-2'>
+          <div className='relative my-3'>
             <Image src="/design/metal/6.jpg" />
           </div>
-          <div className='relative my-2'>
+          <div className='relative my-3'>
             <Image src="/design/metal/7.jpg" />
           </div>
-          <div className='relative my-2'>
+          <div className='relative my-3'>
             <Image src="/design/metal/8.jpg" />
           </div>
-          <div className='relative my-2'>
+          <div className='relative my-3'>
             <Image src="/design/metal/9.jpg" />
           </div>
-          <div className='relative my-2'>
+          <div className='relative my-3'>
             <Image src="/design/metal/10.jpg" />
           </div>
-          <div className='relative my-2'>
+          <div className='relative my-3'>
             <Image src="/design/metal/11.jpg" />
           </div>
-          <div className='relative my-2'>
+          <div className='relative my-3'>
             <Image src="/design/metal/12.jpg" />
           </div>
-          <div className='relative my-2'>
+          <div className='relative my-3'>
             <Image src="/design/metal/13.jpg" />
           </div>
-          <div className='relative my-2'>
+          <div className='relative my-3'>
             <Image src="/design/metal/14.jpg" />
           </div>
-          <div className='relative my-2'>
+          <div className='relative my-3'>
             <Image src="/design/metal/15.jpg" />
           </div>
-          <div className='relative my-2'>
+          <div className='relative my-3'>
             <Image src="/design/metal/16.jpg" />
           </div>
-          <div className='relative my-2'>
+          <div className='relative my-3'>
             <Image src="/design/metal/17.jpg" />
           </div>
-          <div className='relative my-2'>
+          <div className='relative my-3'>
             <Image src="/design/metal/18.jpg" />
           </div>
-          <div className='relative my-2'>
+          <div className='relative my-3'>
             <Image src="/design/metal/19.jpg" />
           </div>
-          <div className='relative my-2'>
+          <div className='relative my-3'>
             <Image src="/design/metal/22.jpg" />
           </div>
-          <div className='relative my-2'>
+          <div className='relative my-3'>
             <Image src="/design/metal/25.jpg" />
           </div>
-          {/* <div className='relative my-2'>
+          {/* <div className='relative my-3'>
             <Image src="/design/metal/23.jpg" />
           </div> */}
-          {/* <div className='relative my-2'>
+          {/* <div className='relative my-3'>
             <Image src="/design/metal/24.jpg" />
           </div> */}
-          <div className='relative my-2'>
+          <div className='relative my-3'>
             <Image src="/design/metal/26.jpg" />
           </div>
-          {/* <div className='relative my-2'>
+          {/* <div className='relative my-3'>
             <Image src="/design/metal/27.jpg" />
           </div> */}
-          <div className='relative my-2'>
+          <div className='relative my-3'>
             <Image src="/design/metal/21.jpg" />
           </div>
-          <div className='relative my-2'>
+          <div className='relative my-3'>
             <Image src="/design/metal/20.jpg" />
           </div>
         </div>
