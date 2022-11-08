@@ -2,7 +2,7 @@ import Image from '../utils/Image'
 
 export default function TwoD() {
     return (
-      <div className='mx-auto my-auto columns-2 sm:columns-3 md:columns-4 gap-2 w-full h-max mt-2 sm:mt-44 mb-0 sm:mb-40 xl:pr-4 z-10'>
+      <div className='mx-auto my-auto columns-2 sm:columns-3 md:columns-4 gap-2 w-full h-max mt-10 sm:mt-44 mb-0 sm:mb-40 xl:pr-4 z-10'>
         <div className='relative my-0'>
           <Image src="/design/2d/1.jpg" />
         </div>

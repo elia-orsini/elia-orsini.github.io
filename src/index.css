@@ -2,6 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  @font-face {
+    font-family: iAWriter Quattro;
+    font-weight: 400;
+    src: url(../public/iAWriterQuattroS-Regular.woff) format("woff");
+  }
+  @font-face {
+    font-family: iAWriter Quattro;
+    font-weight: 900;
+    src: url(../public/iAWriterQuattroS-Bold.woff) format("woff");
+  }
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

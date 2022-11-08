@@ -5,7 +5,7 @@ import Typewriter from 'typewriter-effect';
 export default function HomeContent({ ...props }) {
   return (
     <>
-      <div className="absolute text-10 xl:text-[4.5rem] mr-[30rem] mt-[27rem] z-10 font-inter font-bold z-10 xl:opacity-100 opacity-0">
+      <div className="absolute text-10 xl:text-[4.5rem] mr-[30rem] mt-[27rem] font-bold z-10 xl:opacity-100 opacity-0">
         <Typewriter
           onInit={(typewriter) => {
             typewriter.typeString("Hiya, i'm Elia")
@@ -19,7 +19,7 @@ export default function HomeContent({ ...props }) {
           />
       </div>
 
-      <video className='w-80 mt-4 sm:mt-0' width="350" playsInline autoPlay muted loop >
+      <video className='w-60 sm:w-80 mt-4 sm:mt-0' width="350" playsInline autoPlay muted loop >
         <source src="/3drender.mp4" type="video/mp4"/>
       </video>
     </>

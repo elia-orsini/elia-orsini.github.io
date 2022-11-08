@@ -16,7 +16,7 @@ export default function Sunshi() {
         every corner of the city is tinted by a delicate palette of warm colours. everything worked out in the end.
         </span> */}
 
-        <span className='absolute mt-[9rem] ml-2 z-0 text-xs w-[70%] hidden lg:block'>
+        <span className='absolute text-justify mt-[9rem] mr-4 px-10 z-0 text-xs w-[70%] hidden lg:block'>
           the sun always shines in the city of sunshi. 
           thanks to the latest developments in solar energy, an artificial sun has been installed to light people's lives.
           it regulates the temperature and provides a warm and delicate light. and when it rains, the sky is full of rainbows
@@ -27,7 +27,7 @@ export default function Sunshi() {
           every corner of the city is tinted by a delicate palette of warm colours. everything worked out in the end.
         </span>
 
-        <div className='mx-auto my-auto columns-1 lg:columns-2 gap-2 w-full h-max mt-2 sm:mt-44 lg:mt-64 mb-0 sm:mb-40 xl:pr-4 z-10 bg-black'>
+        <div className='mx-auto columns-1 lg:columns-2 gap-2 w-full h-max mt-10 sm:mt-44 lg:mt-72 xl:mt-64 mb-0 sm:mb-40 xl:pr-4 z-10 bg-black'>
           <div className='relative my-0'>
             <Image src="/design/sunshi/1.jpg" />
           </div>
