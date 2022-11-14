@@ -26,14 +26,14 @@ export default function HomeContent({ ...props }) {
         <p className='text-base font-light text-gray-400'>and send me an email if u like them ;)</p>
         <br />
         <br />
-        <p className='text-xl sm:text-2xl font-bold'>How do I fill my time?</p>
+        {/* <p className='text-xl sm:text-2xl font-bold'>How do I fill my time?</p>
         <p className='text-base font-light text-gray-400'>
           I am currently a junior developer at <LinkIcon title="IMG Arena" href='https://imgarena.com'/> and working on projects
           like <LinkIcon title="Archive.pdf" href='https://www.archivepdf.net/'/>, <LinkIcon title="IN$0MN1A" href='https://insomniaevents.xyz/'/> or
           <LinkIcon title="plantie" href='https://plantie.fly.dev/'/>.
           I sometimes render cool distopic 3D stuff, I read non-fiction books, drink coffee/craft beer/cheap wine or stick and poke my legs.
           I run (but haven't done that in a bit) and journal my days and have a little digital garden.
-        </p>
+        </p> */}
       </div>
 
       {/* <div>
