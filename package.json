@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@react-three/drei": "^8.16.0",
-    "@react-three/fiber": "^7.0.26",
+    "@react-three/drei": "^9.43.3",
+    "@react-three/fiber": "^8.9.1",
     "@react-three/postprocessing": "^2.7.0",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.1.1",
