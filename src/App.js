@@ -7,6 +7,15 @@ import {
   Route,
   Link
 } from "react-router-dom";
+import Entrance from './Entrance';
+import Nightlife from './photography/Nightlife';
+import Cinematic from './photography/Cinematic';
+import Portraits from './photography/Portraits';
+import Code from './Code';
+import Sunshi from './design/Sunshi';
+import Metal from './design/Metal';
+import TwoD from './design/2d';
+import Calendar from './Calendar';
 
 function App() {
   return (
@@ -18,7 +27,25 @@ function App() {
           <meta name="description" content="Elia Orsini personal website 2022" />
         </Helmet>
         <Router>
-          <Index />
+          {/* <Index /> */}
+          <Routes>
+            <Route path="/web" element={<Index />}>
+              <Route path="photography" element={<Nightlife />} />
+              <Route path="nightlife" element={<Nightlife />} />
+              <Route path="cinematic" element={<Cinematic />} />
+              <Route path="portraits" element={<Portraits />} />
+
+              <Route path="code" element={<Code />} />
+
+              <Route path="design" element={<Sunshi />} />
+              <Route path="sunshi" element={<Sunshi />} />
+              <Route path="metal" element={<Metal />} />
+              <Route path="2d" element={<TwoD />} />
+
+              <Route path="calendar" element={<Calendar />} />
+            </Route>
+            <Route path="/" element={<Entrance />} />
+          </Routes>
         </Router>
     </div>
   );
