@@ -15,7 +15,7 @@ function App2() {
     <>
       <Environment files="entrance/skylit.hdr" />
       <EffectComposer>
-        <Bloom luminanceThreshold={0.7} luminanceSmoothing={0.6} height={600} />
+        <Bloom luminanceThreshold={0.5} luminanceSmoothing={0.6} height={600} />
       </EffectComposer>
       <directionalLight intensity={10} position={[-5,5,0]} />
       <directionalLight intensity={10} position={[5,-5,0]} />
@@ -25,7 +25,7 @@ function App2() {
         ref={ref} 
         object={gltf.scene} 
         rotation={[-Math.PI/2, Math.PI, Math.PI]}
-        position={[0,0,0.5]}
+        position={[0,0,-0.5]}
       />
       {/* <OrbitControls /> */}
     </>

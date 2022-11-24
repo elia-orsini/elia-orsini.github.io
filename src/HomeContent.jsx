@@ -19,14 +19,10 @@ export default function HomeContent({ ...props }) {
       <div>
         <p className='text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-bold'>hiya, I'm Elia</p>
         <p className='text-lg sm:text-xl font-light sm:mt-2 text-gray-400'>but people just call me el</p>
-        <br />
-        <br />
-        <p className='text-xl sm:text-2xl font-bold'>Please check out my works!</p>
+        <p className='text-xl mt-10 sm:text-2xl font-bold'>Please check out my works!</p>
         <p className='text-base font-light text-gray-400'>and send me an email if u like them ;)</p>
-        <br />
-        <br />
-        <p className='text-xl sm:text-2xl font-bold'>How do I fill my time?</p>
-        <p className='text-base font-light text-gray-400'>
+        <p className='text-xl mt-10 sm:text-2xl font-bold'>How do I fill my time?</p>
+        <p className='text-base font-light text-justify w-[100%] md:w-[80%] text-gray-400'>
           I am currently a junior developer at <LinkIcon title="IMG Arena" href='https://imgarena.com'/> and working on projects
           like <LinkIcon title="Archive.pdf" href='https://www.archivepdf.net/'/>, <LinkIcon title="IN$0MN1A" href='https://insomniaevents.xyz/'/> or
           <LinkIcon title="plantie" href='https://plantie.fly.dev/'/>.
