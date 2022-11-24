@@ -17,7 +17,7 @@ export default function HomeContent({ ...props }) {
   return (
     <div className='w-full mt-10 sm:mt-44 text-left columns-1 leading-10 tracking-tight'>
       <div>
-        <p className='text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-bold'>hiya, I'm Elia</p>
+        <p className='text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold'>hiya, I'm Elia</p>
         <p className='text-lg sm:text-xl font-light sm:mt-2 text-gray-400'>but people just call me el</p>
         <p className='text-xl mt-10 sm:text-2xl font-bold'>Please check out my works!</p>
         <p className='text-base font-light text-gray-400'>and send me an email if u like them ;)</p>
