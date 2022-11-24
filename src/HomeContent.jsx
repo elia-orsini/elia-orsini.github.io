@@ -1,6 +1,5 @@
 
 import React, { useRef, useEffect } from 'react'
-import Typewriter from 'typewriter-effect';
 import { BoxArrowUpRight } from 'react-bootstrap-icons';
 
 const LinkIcon = (props) => {
