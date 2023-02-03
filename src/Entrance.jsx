@@ -9,25 +9,24 @@ function App2() {
   const gltf = useLoader(GLTFLoader, 'entrance/elig.glb')
   const ref = useRef()
   useFrame(() => {
-      ref.current.rotation.z += 0.01
+    ref.current.rotation.z += 0.01
   })
   return (
     <>
       <Environment files="entrance/skylit.hdr" />
-      <EffectComposer>
+      {/* <EffectComposer>
         <Bloom luminanceThreshold={0.5} luminanceSmoothing={0.6} height={600} />
-      </EffectComposer>
-      <directionalLight intensity={10} position={[-5,5,0]} />
-      <directionalLight intensity={10} position={[5,-5,0]} />
-      <camera position={[0,1,0]} />
+      </EffectComposer> */}
+      <directionalLight intensity={10} position={[-5, 5, 0]} />
+      <directionalLight intensity={10} position={[5, -5, 0]} />
+      <camera position={[0, 1, 0]} />
       <color attach="background" args={["black"]} />
-      <primitive 
-        ref={ref} 
-        object={gltf.scene} 
-        rotation={[-Math.PI/2, Math.PI, Math.PI]}
-        position={[0,0,-0.5]}
+      <primitive
+        ref={ref}
+        object={gltf.scene}
+        rotation={[-Math.PI / 2, Math.PI, Math.PI]}
+        position={[0, 0, -0.5]}
       />
-      {/* <OrbitControls /> */}
     </>
   )
 }
@@ -35,9 +34,9 @@ function App2() {
 export default function Entrance() {
   return (
     <Link to="/web">
-    <Canvas>
-      <App2 />
-    </Canvas>
+      <Canvas>
+        <App2 />
+      </Canvas>
     </Link>
   )
 }
