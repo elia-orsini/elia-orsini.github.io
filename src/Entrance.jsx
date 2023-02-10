@@ -14,9 +14,6 @@ function App2() {
   return (
     <>
       <Environment files="entrance/skylit.hdr" />
-      {/* <EffectComposer>
-        <Bloom luminanceThreshold={0.5} luminanceSmoothing={0.6} height={600} />
-      </EffectComposer> */}
       <directionalLight intensity={10} position={[-5, 5, 0]} />
       <directionalLight intensity={10} position={[5, -5, 0]} />
       <camera position={[0, 1, 0]} />

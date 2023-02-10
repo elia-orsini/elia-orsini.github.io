@@ -13,6 +13,7 @@ import Cinematic from './photography/Cinematic';
 import Sunshi from './design/Sunshi';
 import TwoD from './design/2d';
 import Metal from './design/Metal';
+import Aliens from './design/Aliens';
 import Code from './Code';
 import Calendar from './Calendar';
 import { useEffect } from 'react';
@@ -60,6 +61,7 @@ const Home = () => {
             <>
               <Link to="/web/sunshi"><button className={`w-full text-left  block ml-7 ${designSubPage === 0 ? 'text-gray-200' : ''}`} onClick={() => setDesignSubPage(0)}>sunshi</button></Link>
               <Link to="/web/metal"><button className={`w-full text-left  block ml-7 ${designSubPage === 1 ? 'text-gray-200' : ''}`} onClick={() => setDesignSubPage(1)}>metal</button></Link>
+              <Link to="/web/aliens"><button className={`w-full text-left  block ml-7 ${designSubPage === 3 ? 'text-gray-200' : ''}`} onClick={() => setDesignSubPage(3)}>aliens</button></Link>
               <Link to="/web/2d"><button className={`w-full text-left  block ml-7 ${designSubPage === 2 ? 'text-gray-200' : ''}`} onClick={() => setDesignSubPage(2)}>2d</button></Link>
             </>
           ) : null}
@@ -115,6 +117,7 @@ const Home = () => {
           <Route path="/design" element={<Sunshi />} />
           <Route path="/sunshi" element={<Sunshi />} />
           <Route path="/metal" element={<Metal />} />
+          <Route path="/aliens" element={<Aliens />} />
           <Route path="/2d" element={<TwoD />} />
 
           <Route path="/calendar" element={<Calendar />} />
