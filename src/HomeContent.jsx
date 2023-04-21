@@ -34,7 +34,7 @@ export default function HomeContent({ ...props }) {
         </div>
 
         <p className="text-lg mt-10 sm:text-lg font-bold">
-          things i made you might have seen around
+          things you might have seen around
         </p>
         <div className="">
           <div className="my-auto columns-1 sm:columns-3 w-full h-max mt-6 font-bold leading-4 text-sm">
