@@ -21,17 +21,6 @@ import Aliens from './design/Aliens';
 function App() {
   return (
     <div className="App bg-black w-screen h-screen">
-      <Helmet>
-        <meta charSet="utf-8" />
-        <title>elia orsini</title>
-        <link rel="canonical" href="http://elia-orsini.com" />
-
-        <meta property="og:title" content="elia orsini" />
-        <meta name="description" content="elia orsini personal website 2023" />
-        <meta property="og:description" content="Elia Orsini personal website 2023" />
-        <link rel="shortcut icon" href="/favicon.ico" />
-        <meta property="og:image" content='/favicon.ico' />
-      </Helmet>
       <Router>
         <Routes>
           <Route path="/web" element={<Index />}>
