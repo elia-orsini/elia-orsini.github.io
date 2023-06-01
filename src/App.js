@@ -1,22 +1,16 @@
-import './App.css';
-import Index from './index.jsx'
-import { Helmet } from "react-helmet";
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route,
-  Link
-} from "react-router-dom";
-import Entrance from './Entrance';
-import Nightlife from './photography/Nightlife';
-import Cinematic from './photography/Cinematic';
-import Portraits from './photography/Portraits';
-import Code from './Code';
-import Sunshi from './design/Sunshi';
-import Metal from './design/Metal';
-import TwoD from './design/2d';
-import Calendar from './Calendar';
-import Aliens from './design/Aliens';
+import "./App.css";
+import Index from "./index.jsx";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Entrance from "./Entrance";
+import Nightlife from "./photography/Nightlife";
+import Cinematic from "./photography/Cinematic";
+import Portraits from "./photography/Portraits";
+import Code from "./Code";
+import Sunshi from "./design/Sunshi";
+import Metal from "./design/Metal";
+import TwoD from "./design/2d";
+import Calendar from "./Calendar";
+import Aliens from "./design/Aliens";
 
 function App() {
   return (

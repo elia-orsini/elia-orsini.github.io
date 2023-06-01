@@ -1,16 +1,15 @@
-import { useRef, useState } from 'react'
-import { Canvas, useFrame, useLoader, useThree } from '@react-three/fiber'
-import { Environment, OrbitControls } from '@react-three/drei'
-import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader'
-import { EffectComposer, DepthOfField, Bloom, Noise, Vignette } from '@react-three/postprocessing'
+import { useRef } from "react";
+import { Canvas, useFrame, useLoader } from "@react-three/fiber";
+import { Environment } from "@react-three/drei";
+import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
 import { Link } from "react-router-dom";
 
-function App2() {
-  const gltf = useLoader(GLTFLoader, 'entrance/elig.glb')
-  const ref = useRef()
+function Scene() {
+  const gltf = useLoader(GLTFLoader, "entrance/elig.glb");
+  const ref = useRef();
   useFrame(() => {
-    ref.current.rotation.z += 0.01
-  })
+    ref.current.rotation.z += 0.01;
+  });
   return (
     <>
       <Environment files="entrance/skylit.hdr" />
@@ -25,15 +24,15 @@ function App2() {
         position={[0, 0, -0.5]}
       />
     </>
-  )
+  );
 }
 
 export default function Entrance() {
   return (
     <Link to="/web">
       <Canvas>
-        <App2 />
+        <Scene />
       </Canvas>
     </Link>
-  )
+  );
 }

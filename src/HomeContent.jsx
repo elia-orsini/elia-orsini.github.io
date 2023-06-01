@@ -1,20 +1,5 @@
-import React, { useRef, useEffect } from "react";
-import { BoxArrowUpRight } from "react-bootstrap-icons";
+import React from "react";
 import Image from "./utils/Image";
-
-const LinkIcon = (props) => {
-  return (
-    <>
-      <span className="text-white"> {props.title}</span>
-      <a href={props.href} target="_blank">
-        <BoxArrowUpRight
-          size={12}
-          className="text-white ml-1 mb-1 inline-block"
-        />
-      </a>
-    </>
-  );
-};
 
 export default function HomeContent({ ...props }) {
   return (
