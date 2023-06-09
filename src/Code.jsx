@@ -128,7 +128,7 @@ export default function Code() {
 
       <div className="flex flex-col mt-20">
         <p className="text-left font-black text-2xl sm:text-xl pb-4 block">
-          Projects I am a part of
+          Projects I am part of
         </p>
         <ul className="text-left sm:pb-44 pb-10 block">
           <li className="py-2">
