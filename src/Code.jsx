@@ -74,6 +74,23 @@ export default function Code() {
         <ul className="text-left block">
           <li className="py-2">
             <a
+              href="https://rhomcguire.uk"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <h1 className="font-black underline underline-offset-1 decoration-2">
+                rho mcguire
+              </h1>
+            </a>
+            <p className="text-sm text-gray-200">
+              professional website for rho mcguire.
+            </p>
+            <p className="text-xs font-light text-gray-400">
+              NEXT - NOTION - TAILWIND CSS 
+            </p>
+          </li>
+          <li className="py-2">
+            <a
               href="https://www.insomniaevents.xyz/"
               target="_blank"
               rel="noreferrer"
