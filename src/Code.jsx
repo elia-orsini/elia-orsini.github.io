@@ -3,7 +3,7 @@ export default function Code() {
     <div className="font-ia flex flex-col w-full">
       <div className="flex flex-col sm:mt-44 mt-10">
         <p className="text-left font-black text-2xl sm:text-xl pb-4">
-          Side projects
+          side projects
         </p>
         <ul className="text-left">
           <li className="py-2">
@@ -13,10 +13,10 @@ export default function Code() {
               rel="noreferrer"
             >
               <h1 className="font-black underline underline-offset-1 decoration-2">
-                BlenderWebViewer
+                blenderWebViewer
               </h1>
             </a>
-            <p className="text-sm text-gray-200">A web viewer for blender.</p>
+            <p className="text-sm text-gray-200">a web viewer for blender.</p>
             <p className="text-xs font-light text-gray-400">PYTHON - REACT</p>
           </li>
           <li className="py-2">
@@ -54,10 +54,10 @@ export default function Code() {
               rel="noreferrer"
             >
               <h1 className="font-black underline underline-offset-1 decoration-2">
-                Mars Neural Net
+                mars neural net
               </h1>
             </a>
-            <p className="text-sm  text-gray-200">
+            <p className="text-sm  text-gray-200 lowercase">
               Neural Network that classifies images taken on Mars.
             </p>
             <p className="text-xs font-light text-gray-400">
@@ -69,7 +69,7 @@ export default function Code() {
 
       <div className="flex flex-col mt-20">
         <p className="text-left font-black text-2xl sm:text-xl pb-4 block">
-          Websites I built
+          websites I built
         </p>
         <ul className="text-left block">
           <li className="py-2">
@@ -96,7 +96,7 @@ export default function Code() {
               rel="noreferrer"
             >
               <h1 className="font-black underline underline-offset-1 decoration-2">
-                Insomnia
+                insomnia
               </h1>
             </a>
             <p className="text-sm text-gray-200">
@@ -113,7 +113,7 @@ export default function Code() {
               rel="noreferrer"
             >
               <h1 className="font-black underline underline-offset-1 decoration-2">
-                La Macina Sonora
+                la macina sonora
               </h1>
             </a>
             <p className="text-sm text-gray-200">
@@ -128,7 +128,7 @@ export default function Code() {
 
       <div className="flex flex-col mt-20">
         <p className="text-left font-black text-2xl sm:text-xl pb-4 block">
-          Projects I am part of
+          projects I am part of
         </p>
         <ul className="text-left sm:pb-44 pb-10 block">
           <li className="py-2">
@@ -141,7 +141,7 @@ export default function Code() {
                 ARCHIVE.pdf
               </h1>
             </a>
-            <p className="text-sm text-gray-200">
+            <p className="text-sm text-gray-200 lowercase">
               Archive Fashion Scans, Articles & Content for the World.
             </p>
             <p className="text-xs font-light text-gray-400">

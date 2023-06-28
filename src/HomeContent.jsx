@@ -12,7 +12,7 @@ export default function HomeContent({ ...props }) {
           </span>
         </p>
         <div className="text-lg mt-10 sm:text-xl font-bold">
-          Please check out my works !
+          please check out my works !
           <span className="ml-2 text-sm font-bold text-gray-400">
             and send me an email if u like them ;)
           </span>
