@@ -31,6 +31,8 @@ function App() {
             <Route path="aliens" element={<Aliens />} />
             <Route path="2d" element={<TwoD />} />
 
+            <Route path="playground" />
+
             <Route path="calendar" element={<Calendar />} />
           </Route>
           <Route path="/" element={<Entrance />} />
