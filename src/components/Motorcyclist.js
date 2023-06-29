@@ -20,12 +20,12 @@ export function Model(props) {
   const [dummy] = useState(() => new Object3D());
   const bones = nodes.Mesh.skeleton.bones;
 
-  useFrame((state, dt) => {
-    dummy.lookAt(state.pointer.x, state.pointer.y, 1);
-    if (Math.abs(state.pointer.x) < 0.95 && Math.abs(state.pointer.y) < 0.95) {
-      easing.dampQ(bones[5].quaternion, dummy.quaternion, 0, dt);
-    }
-  });
+  // useFrame((state, dt) => {
+  //   dummy.lookAt(state.pointer.x, state.pointer.y, 1);
+  //   if (Math.abs(state.pointer.x) < 0.95 && Math.abs(state.pointer.y) < 0.95) {
+  //     easing.dampQ(bones[5].quaternion, dummy.quaternion, 0, dt);
+  //   }
+  // });
 
   return (
     <group ref={group} {...props} dispose={null}>
