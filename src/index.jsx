@@ -30,6 +30,7 @@ const Home = () => {
     else if (["code"].includes(location)) setCurrentPage(2);
     else if (["design", "sunshi", "metal", "2d"].includes(location))
       setCurrentPage(3);
+    else if (["playground"].includes(location)) setCurrentPage(4);
 
     if (["nightlife"].includes(location)) setPhotographySubPage(0);
     if (["cinematic"].includes(location)) setPhotographySubPage(1);
@@ -78,7 +79,7 @@ const Home = () => {
         </Routes>
       </div>
 
-     <FooterMobile />
+      {!(currentPage === 4) && <FooterMobile />}
     </div>
   );
 };
