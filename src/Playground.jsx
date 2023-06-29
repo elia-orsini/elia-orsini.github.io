@@ -19,8 +19,8 @@ const Motorcyclist = () => {
 };
 
 const Camera = () => {
-  const scroll = useScroll();
-  const [range, setRange] = useState(0);
+  // const scroll = useScroll();
+  // const [range, setRange] = useState(0);
 
   // useFrame(() => {
   //   console.log(scroll.range(0,1/3));
@@ -54,9 +54,9 @@ const Playground = () => {
 
         <Motorcyclist />
 
-        <ScrollControls pages={3} damping={0.1}>
+        {/* <ScrollControls pages={3} damping={0.1}> */}
           <Camera />
-        </ScrollControls>
+        {/* </ScrollControls> */}
 
         <mesh position={[0, -2.5, 0]} rotation-x={-Math.PI / 2} receiveShadow>
           <planeGeometry args={[50, 50]} />
