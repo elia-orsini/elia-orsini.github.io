@@ -32,6 +32,7 @@ function App() {
             <Route path="2d" element={<TwoD />} />
 
             <Route path="playground" />
+            <Route path="cityrobbery" />
 
             <Route path="calendar" element={<Calendar />} />
           </Route>

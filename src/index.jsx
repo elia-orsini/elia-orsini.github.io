@@ -14,6 +14,7 @@ import { useEffect } from "react";
 import Playground from "./Playground";
 import { Navigation } from "./components/Navigation";
 import { FooterMobile } from "./components/FooterMobile";
+import CityRobbery from "./CityRobbery";
 
 const Home = () => {
   const [currentPage, setCurrentPage] = useState(0);
@@ -74,6 +75,7 @@ const Home = () => {
           <Route path="/2d" element={<TwoD />} />
 
           <Route path="/playground" element={<Playground />} />
+          <Route path="/cityrobbery" element={<CityRobbery />} />
 
           <Route path="/calendar" element={<Calendar />} />
         </Routes>
