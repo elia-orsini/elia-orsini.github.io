@@ -11,6 +11,7 @@ import Metal from "./design/Metal";
 import TwoD from "./design/2d";
 import Calendar from "./Calendar";
 import Aliens from "./design/Aliens";
+import UrbanRobbery from "./UrbanRobbery";
 
 function App() {
   return (
@@ -32,11 +33,12 @@ function App() {
             <Route path="2d" element={<TwoD />} />
 
             <Route path="playground" />
-            <Route path="cityrobbery" />
 
             <Route path="calendar" element={<Calendar />} />
           </Route>
           <Route path="/" element={<Entrance />} />
+          
+          <Route path="urbanrobbery" element={<UrbanRobbery />} />
         </Routes>
       </Router>
     </div>

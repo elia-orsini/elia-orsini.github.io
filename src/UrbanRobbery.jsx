@@ -37,7 +37,7 @@ const Camera = () => {
 
 const UrbanRobbery = () => {
   return (
-    <div className="h-96 sm:h-screen flex flex-col">
+    <div className="h-screen flex flex-col">
       {/* <p className="text-2xl font-bold text-center">city_robbery</p>
       <p className="text-lg text-left">
         trying to merge the real world with a 3D virtual environment, city
