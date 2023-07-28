@@ -35,7 +35,7 @@ const Camera = () => {
   );
 };
 
-const CityRobbery = () => {
+const UrbanRobbery = () => {
   return (
     <div className="h-96 sm:h-screen flex flex-col">
       {/* <p className="text-2xl font-bold text-center">city_robbery</p>
@@ -255,4 +255,4 @@ const CityRobbery = () => {
   );
 };
 
-export default CityRobbery;
+export default UrbanRobbery;
